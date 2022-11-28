@@ -19,7 +19,7 @@ korgus = mull.get_height()  # loeme mull muutujas oleva pildifaili kõrguse
 mull = pygame.transform.scale(mull, [laius / 1.2, korgus / 1.2])  # teeme myygimehe muutjas oleva pildifaili 1.2 korda väiksemaks
 ekraan.blit(mull, [250, 50])  # kuvame ekraanil mull pildi faili kordinaatidega 250,50
 
-font = pygame.font.Font(pygame.font.match_font('Comic Sans'), 20)  # määrame muutujale "font" suuruseks 35 ja fondiks "Comic Sans"
+font = pygame.font.Font(pygame.font.match_font('Comic Sans'), 20)  # määrame muutujale "font" suuruseks 20 ja fondiks "Comic Sans"
 tekst = font.render("Tere, olen Asko Aru", True, [255, 255, 255])  # määrame muutujale "tekst" väärtuseks lause mille värv on kollane
 ekraan.blit(tekst, [275, 125])  # kuvame ekraanil teksti kordinaatidega 275,125
 
