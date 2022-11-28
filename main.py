@@ -16,14 +16,12 @@ ekraan.blit(myygimees, [100, 150])  # kuvame ekraanil myygimehe pildi faili kord
 mull = pygame.image.load("pildi_failid/chat.png")  # muutuljale mull omistame pildifaili väärtuse
 laius = mull.get_width()  # loeme mull muutujas oleva pildifaili laiuse
 korgus = mull.get_height()  # loeme mull muutujas oleva pildifaili kõrguse
-mull = pygame.transform.scale(mull, [laius / 1.2,
-                                     korgus / 1.2])  # teeme myygimehe muutjas oleva pildifaili 1.2 korda väiksemaks
+mull = pygame.transform.scale(mull, [laius / 1.2, korgus / 1.2])  # teeme myygimehe muutjas oleva pildifaili 1.2 korda väiksemaks
 ekraan.blit(mull, [250, 50])  # kuvame ekraanil mull pildi faili kordinaatidega 250,50
 
 font = pygame.font.Font(pygame.font.match_font('Comic Sans'),
                         20)  # määrame muutujale "font" suuruseks 35 ja fondiks "Comic Sans"
-tekst = font.render("Tere, olen Asko Aru", True,
-                    [255, 255, 255])  # määrame muutujale "tekst" väärtuseks lause mille värv on kollane
+tekst = font.render("Tere, olen Asko Aru", True, [255, 255, 255])  # määrame muutujale "tekst" väärtuseks lause mille värv on kollane
 ekraan.blit(tekst, [275, 125])  # kuvame ekraanil teksti kordinaatidega 275,125
 
 pygame.display.flip()  # värskendame tervet ekraani
