@@ -1,3 +1,4 @@
+# Asko Aru
 import pygame  # impordime pygame mooduli
 
 pygame.init()  # käivitame pygame mooduli
