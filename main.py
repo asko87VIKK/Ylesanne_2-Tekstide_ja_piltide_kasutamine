@@ -1,7 +1,6 @@
 # Asko Aru
 
 # Pildid peavad asuma kaustas: pildi_failid
-# Tausta muusika peab asuma kaustas: heli
 
 import pygame  # impordime pygame mooduli
 
